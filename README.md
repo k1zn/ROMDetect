@@ -1,6 +1,8 @@
 # ROMDetect
 Detect Edify-installers (TWRP/Magisk-installers) that can brick your phone.
 
+**Important**: not all scripts that have "blockdev" function are phone-breakers, but in Android ROMs installers I've never seen this function.
+
 > This repository is open for pull-requests. Help world community to stay safe with custom ROMs. <3
 
 ## Installation guide
