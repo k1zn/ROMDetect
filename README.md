@@ -15,6 +15,8 @@ git clone https://github.com/k1zn/ROMDetect.git
 cd ROMDetect
 ```
 
+<hr style="border:2px solid gray">
+
 For **PC**:
 1) [Download](https://github.com/k1zn/ROMDetect/archive/refs/heads/main.zip) this repository
 
@@ -25,8 +27,6 @@ For **Termux**:
 ```bash
 $ python ROMDetect.py <filename>
 ```
-
-<hr style="border:2px solid gray">
 
 Example: 
 ```bash
