@@ -7,6 +7,7 @@ Detect Edify-installers (TWRP/Magisk-installers) that can brick your phone.
 
 ## Installation guide
 For **Termux**:
+
 ```shell script
 pkg up
 pkg install python
@@ -15,6 +16,8 @@ git clone https://github.com/k1zn/ROMDetect.git
 cd ROMDetect
 ```
 
+Don't forget to give Termux **permission for files** in app settings.
+
 <hr style="border:2px solid gray">
 
 For **PC**:
@@ -22,8 +25,7 @@ For **PC**:
 
 ## Usage
 For **Termux**:
-1) Give Termux permission for files in app settings
-2) 
+
 ```bash
 $ python ROMDetect.py <filename>
 ```
