@@ -26,10 +26,14 @@ For **Termux**:
 $ python ROMDetect.py <filename>
 ```
 
+<hr style="border:2px solid gray">
+
 Example: 
 ```bash
 $ python ROMDetect.py /sdcard/Download/someshit.zip
 ```
+
+<hr style="border:2px solid gray">
 
 For **PC**:
 ```bash
