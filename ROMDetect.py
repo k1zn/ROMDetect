@@ -10,11 +10,15 @@ if len(sys.argv) > 1:
       for file in zf.infolist():
         if file.filename in check_files:
           byte_text = zf.read(file)
-          if 'blockdev' in byte_text.decode('utf-8') and not is_brick:
+          try:
+            decoded_text = byte_text.decode('utf-8')
+          except UnicodeDecodeError:
+            decoded_text = ""
+          if 'blockdev' in decoded_text and not is_brick:
             is_brick = True
   if is_brick:
     print("[BRICK] DON'T INSTALL THIS! This installer contains \"blockdev\" function, which brick the phone.")
   else:
     print("[CLEAN] ROMDetect.py didn't found \"blockdev\" function in update scripts.")
 else:
-  print('Usage: ROMDetect.py <filename>')
+  print("Usage: ROMDetect.py <filename>")
