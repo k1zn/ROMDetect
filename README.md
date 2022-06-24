@@ -38,3 +38,8 @@ Example:
 ```bash
 ROMDetect.py someshit.zip
 ```
+
+## Result
+If installer script contains "blockdev" function, that normal installers don't have, you will see **[BRICK]** in your console. 
+
+If installer doesn't have "blockdev" function, you will see **[CLEAN]**.
